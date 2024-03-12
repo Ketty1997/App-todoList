@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+
+    <!--Icon-->
+    <link rel="icon" href="images/icon.png">
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fontsgstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Stile-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!--intestazione-->
+        <header class="panel">
+            <h1>Todolist app</h1>
+        </header>
+
+        <!--Sezione principale-->
+        <main>
+            <!--messaggio da mostrare se non ho attivita -->
+            <p class="empty-list-message">Sembra non ci siano attività</p>
+
+            <!--Lista attivita-->
+            <ul class="todo-list">
+                <li class="todo-item">
+                    <div class="todo-check">
+                        <img src="images/check.svg" alt="check icon">
+                    </div>
+                    <p class="todo-text"> Ascoltare filippo</p>
+                </li>
+                <li class="todo-item">
+                    <div class="todo-check">
+                        <img src="images/check.svg" alt="check icon">
+                    </div>
+                    <p class="todo-text"> Ascoltare filippo</p>
+                </li>
+            </ul>
+            <!--Pannello aggiunta attivita'-->
+            <div class="panel add-todo">
+                <input type="text" placeholder="Aggiungi attivita">
+                <button>
+                    <img src="images/add.svg" alt="plus icon">
+                </button>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
