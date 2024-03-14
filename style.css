@@ -59,6 +59,12 @@ button {
     background-color: rgb(217, 255, 102);
 }
 
+#bottone {
+    width: 100%;
+    text-align: center;
+    color: rgb(5, 5, 90);
+}
+
 /*messaggio lista vuota*/
 
 .empty-list-message {
